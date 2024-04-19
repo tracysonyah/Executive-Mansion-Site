@@ -1,0 +1,356 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+  --navigation-background: #b40909;
+  --image-side: #f2f2f2;
+  --hr-line: #b40909;
+  --footer-color: #051e3b;
+  --nav-color: #ffff;
+  --title: #707070;
+  --news-area: #e4e4e4;
+  --nav-hover: #041d3a;
+  --more-icon: #1b3b6a;
+  --more-icon2: #b40909;
+}
+
+.seal-title img {
+  height: 70px;
+  cursor: pointer;
+}
+
+.seal-title {
+  padding: 20px;
+  color: var(--title);
+  text-align: center;
+  font-size: 18.8px;
+}
+
+.seal-title p {
+  padding-top: 5px;
+  font-family: serif;
+  cursor: pointer;
+}
+
+.navigation {
+  display: flex;
+  background: var(--navigation-background);
+  color: var(--nav-color);
+  height: 50px;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  padding-left: 20px;
+  align-items: center;
+}
+
+#home-nav {
+  padding-left: 20px;
+  padding-right: 5px;
+}
+
+#contact-nav {
+  padding-left: 15px;
+  padding-right: 5px;
+}
+
+.ri-search-line {
+  padding-left: 25px;
+  color: #ffffff;
+}
+
+.container {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.president img {
+  width: 100%;
+  height: 100%;
+  box-shadow: 5px 0px 0px -5px rgba(0, 0, 0, 1);
+}
+
+.president-talk {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background: var(--image-side);
+  margin-top: 45px;
+}
+
+hr {
+  color: var(--hr-line);
+  width: 70px;
+}
+
+.talk {
+  padding: 35px 25px 0px 30px;
+}
+
+.talk h2 {
+  font-size: 25px;
+}
+
+.talk p {
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+.talk h2 {
+  padding-bottom: 10px;
+}
+
+.president {
+  position: relative;
+  display: inline-block;
+}
+
+#icon {
+  position: absolute;
+  bottom: 0;
+  left: 76.5%;
+  transform: translateX(-50%);
+  padding-bottom: 17px;
+}
+
+.first-icon,
+.third-icon,
+.fourth-icon {
+  color: var(--more-icon);
+}
+
+.second-icon {
+  color: var(--more-icon2);
+  font-size: 20px;
+}
+
+.vice-news {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 30px;
+  margin-top: 45px;
+}
+
+.vice-president-name img {
+  width: 100%;
+  height: 100%;
+}
+
+.vice-president-name {
+  font-size: 14px;
+  text-align: center;
+  background: var(--image-side);
+  width: 225px;
+}
+
+h5 {
+  padding-top: 5px;
+}
+
+#title {
+  font-size: 10px;
+  padding-bottom: 10px;
+}
+
+.circles {
+  padding-top: 80px;
+  padding-left: 130px;
+}
+
+.second {
+  color: #555555;
+}
+
+.first-news p,
+.second-news p,
+.third-news p,
+.fourth-news p,
+.fifth-news p,
+.sixth-news p {
+  color: var(--news-area);
+  padding-bottom: 5px;
+}
+
+.first-news h3,
+.second-news h3,
+.third-news h3,
+.fourth-news h3,
+.fifth-news h3,
+.sixth-news h3 {
+  font-size: 15px;
+}
+
+.first-news,
+.second-news,
+.third-news,
+.fourth-news,
+.fifth-news,
+.sixth-news {
+  padding-top: 20px;
+}
+
+.news {
+  border-left: 2px solid var(--news-area);
+  padding-left: 25px;
+  padding-right: 10px;
+}
+
+.news h2,
+.recent h2 {
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+.recent {
+  border-left: 2px solid var(--news-area);
+  padding-left: 25px;
+}
+
+.first-recent {
+  padding-top: 25px;
+  padding-bottom: 15px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.second-recent {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid var(--news-area);
+  font-size: 14px;
+}
+
+.third-recent {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid var(--news-area);
+  font-size: 14px;
+}
+
+.fourth-recent {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ffffff;
+  font-size: 14px;
+}
+
+.fifth-recent {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 14px;
+}
+
+.first-recent,
+.second-recent,
+.third-recent,
+.fourth-recent,
+.fifth-recent {
+  font-size: 10px;
+}
+
+.ri-circle-fill {
+  color: var(--hr-line);
+}
+
+.president-pledge {
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+  gap: 25px;
+  margin-top: 50px;
+}
+
+.plege img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.president-link {
+  display: flex;
+  align-items: center;
+  background: var(--image-side);
+  border-radius: 10px;
+}
+
+.ri-file-pdf-2-line,
+.ri-briefcase-fill,
+.ri-global-fill {
+  font-size: 70px;
+  padding: 25px 15px 25px 20px;
+}
+
+.president-link p {
+  font-size: 21px;
+  color: var(--navigation-background);
+}
+
+.p-l {
+  margin-top: 15px;
+}
+
+.bottom {
+  background: var(--footer-color);
+  margin-top: 200px;
+}
+
+.bottom2 {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  padding: 190px 100px 250px 100px;
+  color: white;
+  gap: 20px;
+}
+
+#bottom-seal img {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  height: 50px;
+}
+
+.bottom h3 {
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+
+#loca {
+  padding-bottom: 10px;
+  font-size: 24px;
+}
+
+.navigate {
+  display: flex;
+  align-items: center;
+  padding-bottom: 25px;
+  font-size: 18px;
+}
+
+.navigate p:hover {
+  cursor: pointer;
+  color: var(--hr-line);
+}
+
+.ri-arrow-right-s-line {
+  padding-right: 5px;
+  font-size: 25px;
+}
+
+.digital-contact i {
+  font-size: 45px;
+  padding-right: 5px;
+}
+
+.digital-contact i:hover {
+  cursor: pointer;
+  color: var(--hr-line);
+}
+
+.digital-contact {
+  padding-top: 30px;
+}
