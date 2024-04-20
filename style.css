@@ -215,7 +215,7 @@ h5 {
 .first-recent {
   padding-top: 25px;
   padding-bottom: 15px;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 400;
 }
 
@@ -223,27 +223,27 @@ h5 {
   padding-top: 15px;
   padding-bottom: 15px;
   border-bottom: 1px solid var(--news-area);
-  font-size: 14px;
+  /* font-size: 15px; */
 }
 
 .third-recent {
   padding-top: 15px;
   padding-bottom: 15px;
   border-bottom: 1px solid var(--news-area);
-  font-size: 14px;
+  /* font-size: 15px; */
 }
 
 .fourth-recent {
   padding-top: 15px;
   padding-bottom: 15px;
   border-bottom: 1px solid #ffffff;
-  font-size: 14px;
+  /* font-size: 15px; */
 }
 
 .fifth-recent {
   padding-top: 15px;
   padding-bottom: 15px;
-  font-size: 14px;
+  /* font-size: 20px; */
 }
 
 .first-recent,
@@ -294,15 +294,18 @@ h5 {
   margin-top: 15px;
 }
 
+.footer-contains {
+  margin-top: 150px;
+}
+
 .bottom {
   background: var(--footer-color);
-  margin-top: 200px;
 }
 
 .bottom2 {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
-  padding: 190px 100px 250px 100px;
+  padding: 150px 100px 250px 100px;
   color: white;
   gap: 20px;
 }
@@ -312,6 +315,10 @@ h5 {
   justify-content: center;
   margin: 0 auto;
   height: 50px;
+}
+
+#bottom-seal {
+  margin-bottom: -28px;
 }
 
 .bottom h3 {
